@@ -126,10 +126,11 @@ const Page = () => {
                   <p>Kamu bisa membeli asuransi perjalanan dari pihak penyedia asuransi perjalan seperti MSIG, Zurich, Tokio Marine, dll yang sudah terbukti. Jika kamu mau sedikit menghemat budget, kamu bisa membandingkan beberapa asuransi melalui broker seperti Cermati. Terakhir kali, aku sendiri menggunakan asuransi MSIG dengan harga Rp 400.000-an dengan manfaat seperti berikut:</p>
                   <p className='w-full relative'>
                     <Image
-                      src='https://important-soda-e24.notion.site/image/attachment%3A58a1ed13-b7ee-477a-930f-063237aa0981%3AScreenshot_2025-01-28_011952.png?table=block&id=188c4eaf-1f41-805f-ac08-f98d0429c890&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2'
+                      src='/assets/img/tabel-manfaat.jpg'
                       alt='tabel manfaat'
-                      fill
-                      objectFit='contain'
+                      width={1000}
+                      height={1000}
+                      className='w-full h-auto'
                     />
                   </p>
                   <p>manfaat seperti di atas sudah sangat cukup untuk memperkuat aplikasi VISA mu. Jika kamu sudah mempunyai asuransi perjalanan, tidak perlu menyertakan semua dokumen polis, cukup sertakan halaman yang memuat nama kamu, tabel manfaat dan tanda tangan atau Authorized Signature dari provider pilihanmu. Ingat, pastikan melampirkan asuransi ASLI yang benar bukan hanya asuransi palsu yang dibuat-buat. Kebanyakan orang yang gagal tidak benar-benar membeli asuransi tapi hanya menggunakan dokumen palsu atau editan.</p>
@@ -161,16 +162,17 @@ const Page = () => {
                 </li>
                 <li className='list-decimal'><h4 className='font-[600]'>Cover Letter</h4>
                   <p>Syarat ini memang tidak tertulis di manapun, tapi sangat penting untuk memperkuat aplikasi VISAmu. Jika kamu adalah seorang karyawan, mintalah surat keterangan kerja dari kantormu yang ditujukan langsung ke kedutaan negara tujuan dalam bahasa Inggris.</p>
-                  <p className='w-full relative'>
-                    <Image src='https://important-soda-e24.notion.site/image/attachment%3Ab7141d3e-9a5b-47d4-a015-81f807e611db%3AScreenshot_2025-01-28_155539.png?table=block&id=189c4eaf-1f41-80c8-a8e6-df2e3acc8d84&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2'
+                  <div className='w-full relative p-2'>
+                    <Image src='/assets/img/contoh-surat-keterangan.jpg'
                       alt='cover letter'
-                      fill
-                      objectFit='contain'
+                      width={1000}
+                      height={1000}
+                      className='w-full h-auto'
                     />
-                  </p>
+                  </div>
                   <p>Pastikan cover letter memuat kop surat perusahaan tempat kamu bekerja dan anda tangan dari HR manager. Tapi jika kamu seorang entrepreneur, kamu bisa membuat cover letter sendiri yang menyatakan dengan jelas bahwa kamu akan kembali ke negara asal setelah perjalananmu. Pastikan surat ini ditulis dalam bahasa Inggris, menggunakan format profesional, dan mencantumkan detail bisnis yang kamu jalankan. Berikut contoh formatnya:</p>
                   <br /><hr />
-                  <div className='text-xs md:text-sm p-4'>
+                  <div className='text-xs md:text-sm p-4 bg-slate-50 dark:bg-slate-600'>
                     <p><strong>[Nama Lengkap]</strong></p>
                     <p><strong>[Alamat Rumah]</strong></p>
                     <p><strong>[Nomor Telepon]</strong></p>
