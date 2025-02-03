@@ -1,10 +1,11 @@
 import CollapsibleCard from '@/components/CollapsibleCard'
 import { Metadata } from 'next';
+import Image from 'next/image';
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: "Panduan Rahasia Mendapatkan Visa Schengen 99% Pasti Diterima",
-  description: "Panduan Rahasia Mendapatkan Visa Schengen 99% Pasti Diterima",
+  title: 'Panduan Rahasia Mendapatkan Visa Schengen 99% Pasti Diterima',
+  description: 'Panduan Rahasia Mendapatkan Visa Schengen 99 % Pasti Diterima',
 };
 
 const Page = () => {
@@ -21,7 +22,7 @@ const Page = () => {
           <CollapsibleCard className='bg-gray-100 dark:bg-gray-800'>
             <h2 className='font-bold'>Apa itu Visa Schengen</h2>
 
-            <p>Visa Schengen adalah "golden ticket" buat kamu yang mau jelajah Eropa tanpa harus berurusan sama imigrasi tiap kali pindah negara. Dengan visa ini, kamu bisa masuk ke 27 negara di Eropa tanpa perlu apply visa tiap negara—cukup satu visa untuk semua. Praktis banget, kan?</p>
+            <p>Visa Schengen adalah &quot;golden ticket&quot; buat kamu yang mau jelajah Eropa tanpa harus berurusan sama imigrasi tiap kali pindah negara. Dengan visa ini, kamu bisa masuk ke 27 negara di Eropa tanpa perlu apply visa tiap negara—cukup satu visa untuk semua. Praktis banget, kan?</p>
 
             <h3>Negara-Negara di Schengen Area</h3>
 
@@ -95,7 +96,7 @@ const Page = () => {
             <CollapsibleCard>
               <h3 className='font-[600]'>Ajukan Melalui VFS Global</h3>
               <p>Kenapa harus melalui VFS Global? karena jika kamu mendaftar melui VFS global, dokumenmu akan diperiksa dan diverifikasi lebih dulu oleh staf atau petugas VFS. Jadi petugas bisa menginformasikan terlebih dulu jika ada dokumen yang belum lengkap atau ada dokumen yang harus disusulkan. Di VFS juga tidak perlu ada interview seperti jika kamu mendaftar langsung ke kedutaan. VFS juga menyediakan jasa pengiriman Paspor ke rumah kamu jika rumah kamu jauh dari tempat pengurusan, sehingga bisa menghemat biaya dan waktu.</p>
-              <p>Jangan lupa membuat janji temu terlebih dulu untuk bisa mengurus VISA melalui VFS global. Untuk lebih jelasnya kamu bisa langsung buka website <a href="https://www.vfsglobal.com/en/individuals/index.html" target="_blank">VFS Global</a>, lalu pilih dari negara mana dan negara tujuan, kamu akan diarahkan ke webiste VFS Global khusus untuk negara tujuanmu. Tinggal ikuti langkah-langkah pengajuan seperti yang tertera di website.</p>
+              <p>Jangan lupa membuat janji temu terlebih dulu untuk bisa mengurus VISA melalui VFS global. Untuk lebih jelasnya kamu bisa langsung buka website <a href='https://www.vfsglobal.com/en/individuals/index.html' target='_blank'>VFS Global</a>, lalu pilih dari negara mana dan negara tujuan, kamu akan diarahkan ke webiste VFS Global khusus untuk negara tujuanmu. Tinggal ikuti langkah-langkah pengajuan seperti yang tertera di website.</p>
             </CollapsibleCard>
             <CollapsibleCard>
               <h3 className='font-[600]'>Isi Formulir Aplikasi VISA Online</h3>
@@ -117,21 +118,26 @@ const Page = () => {
                 <li className='list-decimal'><h4 className='font-[600]'>Foto Terbaru</h4>
                   <p>Pastikan ukuran foto 3.5 x 4.5 cm dengan background putih dengan komposisi wajah terlihat 75%.
                     Beberapa kantor VFS menyediakan layanan foto di tempat tapi untuk berjaga-jaga sebaiknya kamu menyiapakan juga foto dari rumah.
-                    Ukuran lebih detail bisa dilihat <a href="https://id.visafoto.com/eu-visa-photo" target='_blank'>disini</a>.</p>
+                    Ukuran lebih detail bisa dilihat <a href='https://id.visafoto.com/eu-visa-photo' target='_blank'>disini</a>.</p>
                 </li>
                 <li className='list-decimal'><h4 className='font-[600]'>Asuransi Perjalanan</h4>
                   <p>Ini salah satu syarat wajib yang harus kamu sertakan. Asuransi harus mengcover minimal <strong>€30.000</strong> Euro atau sekitar 540 juta rupiah. Jangan asal membeli asurani yang murah, Pihak penyedia asuransi juga harus yang benar-benar kredible dan diakui oleh kedutaan Negara tujuan kamu.</p>
 
                   <p>Kamu bisa membeli asuransi perjalanan dari pihak penyedia asuransi perjalan seperti MSIG, Zurich, Tokio Marine, dll yang sudah terbukti. Jika kamu mau sedikit menghemat budget, kamu bisa membandingkan beberapa asuransi melalui broker seperti Cermati. Terakhir kali, aku sendiri menggunakan asuransi MSIG dengan harga Rp 400.000-an dengan manfaat seperti berikut:</p>
-                  <p>
-                    <img src='https://important-soda-e24.notion.site/image/attachment%3A58a1ed13-b7ee-477a-930f-063237aa0981%3AScreenshot_2025-01-28_011952.png?table=block&id=188c4eaf-1f41-805f-ac08-f98d0429c890&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2' alt="tabel manfaat" className='w-full' />
+                  <p className='w-full relative'>
+                    <Image
+                      src='https://important-soda-e24.notion.site/image/attachment%3A58a1ed13-b7ee-477a-930f-063237aa0981%3AScreenshot_2025-01-28_011952.png?table=block&id=188c4eaf-1f41-805f-ac08-f98d0429c890&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2'
+                      alt='tabel manfaat'
+                      fill
+                      objectFit='contain'
+                    />
                   </p>
                   <p>manfaat seperti di atas sudah sangat cukup untuk memperkuat aplikasi VISA mu. Jika kamu sudah mempunyai asuransi perjalanan, tidak perlu menyertakan semua dokumen polis, cukup sertakan halaman yang memuat nama kamu, tabel manfaat dan tanda tangan atau Authorized Signature dari provider pilihanmu. Ingat, pastikan melampirkan asuransi ASLI yang benar bukan hanya asuransi palsu yang dibuat-buat. Kebanyakan orang yang gagal tidak benar-benar membeli asuransi tapi hanya menggunakan dokumen palsu atau editan.</p>
                 </li>
                 <li className='list-decimal'><h4 className='font-[600]'>Foto Terbaru</h4>
                   <p>Pastikan ukuran foto 3.5 x 4.5 cm dengan background putih dengan komposisi wajah terlihat 75%.
                     Beberapa kantor VFS menyediakan layanan foto di tempat tapi untuk berjaga-jaga sebaiknya kamu menyiapakan juga foto dari rumah.
-                    Ukuran lebih detail bisa dilihat <a href="https://id.visafoto.com/eu-visa-photo" target='_blank'>disini</a>.</p>
+                    Ukuran lebih detail bisa dilihat <a href='https://id.visafoto.com/eu-visa-photo' target='_blank'>disini</a>.</p>
                 </li>
                 <li className='list-decimal'><h4 className='font-[600]'>Bukti Keuangan</h4>
                   <p>Bukti keuangan adalah salah satu dokumen penting yang perlu kamu sertakan. Dokumen ini tidak hanya menunjukkan bahwa kamu punya cukup dana untuk menanggung semua biaya selama di Eropa, tetapi juga membuktikan bahwa kamu memiliki penghasilan yang cukup, sehingga ada alasan kuat untuk kembali ke Indonesia.</p>
@@ -149,13 +155,19 @@ const Page = () => {
                 <li className='list-decimal'><h4 className='font-[600]'>Rencana Perjalanan (Itinerary)</h4>
                   <p>Yang dimaksud dengan Itinerary perjalanan adalah bukti pemesanan tiket pulang pergi serta bukti pemesanan hotel atau penginapan selama kamu di Eropa. Tidak perlu mencantumkan detail semua tempat yang akan kamu kunjungi, apalagi hingga mencatat jam berapa kamu akan ke sana. Cukup sertakan tiket pulang-pergi yang sudah benar-benar <strong>issued</strong> atau terbit dan bukti pemesanan hotel yang sudah <strong>terkonfirmasi</strong>.</p>
 
-                  <p className='pl-3 my-2 border-l-2 border-gray-400'><strong>Tips Penting:</strong> Kamu tidak perlu membayar di awal untuk mendapatkan bukti booking hotel yang terkonfirmasi. Gunakan trik ini untuk mendapatkan <strong>bukti booking hotel yang terkonfirmasi tanpa harus membayar di awal!</strong> Kamu bisa memanfaatkan fitur <strong>"Pay at The Property"</strong> atau <strong>"Pay Nothing Until [date]"</strong> yang tersedia di beberapa website dan aplikasi pemesanan hotel seperti ,<a href="https://booking.com" target='_blank'>Booking.com</a>, <a href="https://agoda.com" target='_blank'>Agoda</a>, dll.</p>
+                  <p className='pl-3 my-2 border-l-2 border-gray-400'><strong>Tips Penting:</strong> Kamu tidak perlu membayar di awal untuk mendapatkan bukti booking hotel yang terkonfirmasi. Gunakan trik ini untuk mendapatkan <strong>bukti booking hotel yang terkonfirmasi tanpa harus membayar di awal!</strong> Kamu bisa memanfaatkan fitur <strong>&quot;Pay at The Property&quot;</strong> atau <strong>&quot;Pay Nothing Until [date]&quot;</strong> yang tersedia di beberapa website dan aplikasi pemesanan hotel seperti ,<a href='https://booking.com' target='_blank'>Booking.com</a>, <a href='https://agoda.com' target='_blank'>Agoda</a>, dll.</p>
 
-                  <p>Aku pribadi sering menggunakan fitur <strong>"Pay Nothing Until [date]"</strong> dari <a href="https://booking.com" target='_blank'>Booking.com</a>. Dengan fitur ini, reservasi hotelmu tetap terkonfirmasi tanpa perlu langsung membayar. <strong>Selain itu, kamu juga bisa mengunci harga murah</strong> jika kamu melakukan pemesanan jauh-jauh hari, karena biasanya semakin dekat dengan tanggal check-in, harga kamar akan semakin mahal. Kamu bisa melakukan pembayaran saat tiba di hotel atau menjelang tanggal check-in. Praktis, fleksibel, dan aman untuk kebutuhan aplikasi visa!</p>
+                  <p>Aku pribadi sering menggunakan fitur <strong>&quot;Pay Nothing Until [date]&quot;</strong> dari <a href='https://booking.com' target='_blank'>Booking.com</a>. Dengan fitur ini, reservasi hotelmu tetap terkonfirmasi tanpa perlu langsung membayar. <strong>Selain itu, kamu juga bisa mengunci harga murah</strong> jika kamu melakukan pemesanan jauh-jauh hari, karena biasanya semakin dekat dengan tanggal check-in, harga kamar akan semakin mahal. Kamu bisa melakukan pembayaran saat tiba di hotel atau menjelang tanggal check-in. Praktis, fleksibel, dan aman untuk kebutuhan aplikasi visa!</p>
                 </li>
                 <li className='list-decimal'><h4 className='font-[600]'>Cover Letter</h4>
                   <p>Syarat ini memang tidak tertulis di manapun, tapi sangat penting untuk memperkuat aplikasi VISAmu. Jika kamu adalah seorang karyawan, mintalah surat keterangan kerja dari kantormu yang ditujukan langsung ke kedutaan negara tujuan dalam bahasa Inggris.</p>
-                  <p><img src='https://important-soda-e24.notion.site/image/attachment%3Ab7141d3e-9a5b-47d4-a015-81f807e611db%3AScreenshot_2025-01-28_155539.png?table=block&id=189c4eaf-1f41-80c8-a8e6-df2e3acc8d84&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2' alt="cover letter" className='w-full' /></p>
+                  <p className='w-full relative'>
+                    <Image src='https://important-soda-e24.notion.site/image/attachment%3Ab7141d3e-9a5b-47d4-a015-81f807e611db%3AScreenshot_2025-01-28_155539.png?table=block&id=189c4eaf-1f41-80c8-a8e6-df2e3acc8d84&spaceId=42cb2e56-dcc6-46d9-b1d2-47bd6f889cce&width=1120&userId=&cache=v2'
+                      alt='cover letter'
+                      fill
+                      objectFit='contain'
+                    />
+                  </p>
                   <p>Pastikan cover letter memuat kop surat perusahaan tempat kamu bekerja dan anda tangan dari HR manager. Tapi jika kamu seorang entrepreneur, kamu bisa membuat cover letter sendiri yang menyatakan dengan jelas bahwa kamu akan kembali ke negara asal setelah perjalananmu. Pastikan surat ini ditulis dalam bahasa Inggris, menggunakan format profesional, dan mencantumkan detail bisnis yang kamu jalankan. Berikut contoh formatnya:</p>
                   <br /><hr />
                   <div className='text-xs md:text-sm p-4'>
@@ -295,13 +307,13 @@ const Page = () => {
           </CollapsibleCard>
 
           <div className='p-4 mt-10 bg-gray-100 dark:bg-slate-800 border-[1px] border-gray-300'>
-            <p>Nah, sekarang kamu sudah punya semua "senjata" untuk ngadepin Visa Schengen kayak pro. Gak perlu takut ditolak lagi, deh! Asal kamu ikutin panduan ini, hindarin kesalahan-kesalahan fatal, dan siapin semuanya dengan baik, Eropa tinggal nunggu kamu dateng. So, siap-siap packing koper, ambil kamera, dan siap-siap bikin story seru buat Instagram!</p>
+            <p>Nah, sekarang kamu sudah punya semua &quot;senjata&quot; untuk ngadepin Visa Schengen kayak pro. Gak perlu takut ditolak lagi, deh! Asal kamu ikutin panduan ini, hindarin kesalahan-kesalahan fatal, dan siapin semuanya dengan baik, Eropa tinggal nunggu kamu dateng. So, siap-siap packing koper, ambil kamera, dan siap-siap bikin story seru buat Instagram!</p>
             <p>&nbsp;</p>
             {/* <p>Tapi, tunggu dulu...
-              Kalau kamu mau bikin travelingmu bukan cuma seru, tapi juga jadi sumber cuan, aku punya sesuatu yang bakal bikin kamu semangat banget! Ebookku yang berjudul <strong>"Jalan-Jalan Jadi Cuan"</strong> bakal bocorin semua rahasia gimana cara menghasilkan uang dari hobi traveling. Bayangin, kamu bisa dapet duit sambil jalan-jalan, eksplor tempat-tempat keren, dan bikin konten yang bikin semua orang iri. Gak percaya? Coba aja baca!</p>
+              Kalau kamu mau bikin travelingmu bukan cuma seru, tapi juga jadi sumber cuan, aku punya sesuatu yang bakal bikin kamu semangat banget! Ebookku yang berjudul <strong>&quot;Jalan-Jalan Jadi Cuan&quot;</strong> bakal bocorin semua rahasia gimana cara menghasilkan uang dari hobi traveling. Bayangin, kamu bisa dapet duit sambil jalan-jalan, eksplor tempat-tempat keren, dan bikin konten yang bikin semua orang iri. Gak percaya? Coba aja baca!</p>
             <p>&nbsp;</p>
             <p>Jangan cuma jadi penonton, yuk jadi pemain!
-              Klik link di bawah ini buat dapetin ebook <strong>"Jalan-Jalan Jadi Cuan"</strong> dan mulai perjalananmu dari traveler biasa jadi travelpreneur keren. Eropa? Bisa! Cuan? Bisa banget!</p> */}
+              Klik link di bawah ini buat dapetin ebook <strong>&quot;Jalan-Jalan Jadi Cuan&quot;</strong> dan mulai perjalananmu dari traveler biasa jadi travelpreneur keren. Eropa? Bisa! Cuan? Bisa banget!</p> */}
           </div>
         </div>
       </div >

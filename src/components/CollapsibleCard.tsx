@@ -3,7 +3,7 @@
 import React, { Children } from 'react'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from './ui/collapsible'
 import { CollapsibleProps } from '@radix-ui/react-collapsible'
-import { ArrowBigRight, ChevronRight } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
 
 const CollapsibleCard = ({ children, ...props }: CollapsibleProps) => {
   const [isOpen, setIsOpen] = React.useState(false)
