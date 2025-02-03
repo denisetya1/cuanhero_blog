@@ -1,5 +1,11 @@
 import CollapsibleCard from '@/components/CollapsibleCard'
+import { Metadata } from 'next';
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: "Panduan Rahasia Mendapatkan Visa Schengen 99% Pasti Diterima",
+  description: "Panduan Rahasia Mendapatkan Visa Schengen 99% Pasti Diterima",
+};
 
 const Page = () => {
   return (
