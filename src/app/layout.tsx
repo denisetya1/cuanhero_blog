@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,7 +39,14 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
       </body>
-      <GoogleAnalytics gaId="G-22D4TKC2MC" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-22D4TKC2MC" />
+      <Script>
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-22D4TKC2MC');`}
+      </Script>
     </html>
   );
 }
