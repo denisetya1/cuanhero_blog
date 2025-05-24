@@ -152,7 +152,7 @@ const Page = () => {
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              Pakai kode promo <br /><span className='underline'>"DISKONMEI50"</span>
+              Pakai kode promo <br /><span className='underline'>&quot;DISKONMEI50&quot;</span>
             </div>
 
             <div className='flex items-center justify-center mb-4'>
