@@ -166,10 +166,9 @@ const Page = () => {
 
             <div className='w-full'>
               <a className="iframe-lightbox-link block text-center p-3 w-full text-xl md:text-2xl lg:text-3xl bg-green-700 rounded-md font-bold text-white hover:bg-green-800 transition-colors"
-                href="https://cuanhero.myr.id/pl/strategi-jualan-online-cuan-milyaran-tanpa-ngiklan?iframe=true"
+                href="https://cuanhero.myr.id/catalog/strategi-jualan-online-cuan-milyaran-tanpa-ngiklan"
               >
-                Bayar dan Download Materinya</a>
-              <script type="text/javascript" src="https://mayarembed.r2.mayar.id/mayar-new-min.js"></script>
+                Bayar dan Download Materinya</a>\
             </div>
 
           </div>
