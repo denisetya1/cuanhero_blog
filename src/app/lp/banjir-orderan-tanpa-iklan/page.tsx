@@ -1,6 +1,11 @@
+import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
+import { DialogHeader, DialogFooter } from '@/components/ui/dialog';
+import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { Label } from '@radix-ui/react-dropdown-menu';
 import Image from 'next/image'
 import { Metadata } from 'next/types';
+import { Input } from 'postcss';
 
 export const metadata: Metadata = {
   title: 'Jualan Laris Manis di Marketplace Tanpa Iklan | Ebook eCommerce Pemula Anti Boncos',
@@ -138,6 +143,140 @@ const Page = () => {
               </Card>
             </div>
 
+            <div className='mt-10 text-lg md:text-xl lg:text-2xl font-bold text-center'>
+              Biar bukti yang berbicara:
+            </div>
+            <div>
+              <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-4 mt-5'>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof1.png'
+                      alt='Bukti cetak resi'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 1</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/LGhSL8ozS5c" title="Proof1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof2.png?v=2'
+                      alt='Bukti cetak resi'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 2</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/2cchP_7FJ6k" title="proof2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof3.png'
+                      alt='Bukti paket'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 3</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/YRv6GQCD9gU" title="proof3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof4.png'
+                      alt='Bukti cetak resi'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 4</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Q9FJs32Na5o" title="proof4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof5.png'
+                      alt='Bukti kirim'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 5</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Ce4zpV6tae4" title="proof5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Image
+                      src='/assets/img/proof6.png'
+                      alt='Bukti cetak resi'
+                      width={100}
+                      height={100}
+                      className='w-full h-auto'
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Proof 6</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/7jHqANl-dXo" title="proof6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <DialogFooter>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+              </div>
+            </div>
+
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
               Segera dapatkan ebook ini dan jadi yang pertama meraih cuan milyaran di marketplace tanpa iklan!,
               <br /><span className='bg-[#fffc00] dark:text-black'>ingat 100% tanpa iklan, GRATIS! <br />100% no budget!</span>
@@ -170,15 +309,6 @@ const Page = () => {
               >
                 Bayar dan Download Materinya</a>
             </div>
-
-            {/* <div>
-              Biar bukti yang berbicara, berikut adalah beberapa hasil nyata dari mereka yang sudah menerapkan materi ini:
-            </div>
-            <div>
-              <div>
-
-              </div>
-            </div> */}
 
 
           </div>
