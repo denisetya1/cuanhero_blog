@@ -20,7 +20,7 @@ const Page = () => {
               </span></p>
             </div>
             <div className='uppercase mt-5 mb-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center bg-[#fffc00] text-red-600'>
-              <p>Ini dia solusi Banjir Orderan tanpa boncos kareana iklan!</p>
+              <p>Ini dia solusi Banjir Orderan tanpa boncos karena iklan!</p>
             </div>
 
             <div>
