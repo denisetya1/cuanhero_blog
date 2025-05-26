@@ -171,14 +171,14 @@ const Page = () => {
                 Bayar dan Download Materinya</a>
             </div>
 
-            <div>
+            {/* <div>
               Biar bukti yang berbicara, berikut adalah beberapa hasil nyata dari mereka yang sudah menerapkan materi ini:
             </div>
             <div>
               <div>
 
               </div>
-            </div>
+            </div> */}
 
 
           </div>
