@@ -26,7 +26,7 @@ const Page = () => {
             <div>
               <Image
                 src='/assets/img/banjir-orderan-tanpa-iklan.jpg'
-                alt='laporan performa penjualan 2025'
+                alt='Banjir Orderan Tanpa Iklan'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
@@ -45,7 +45,7 @@ const Page = () => {
             <div>
               <Image
                 src='/assets/img/report-2025.jpg'
-                alt='laporan performa penjualan 2024'
+                alt='laporan performa penjualan 2025'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
@@ -59,7 +59,7 @@ const Page = () => {
             <div>
               <Image
                 src='/assets/img/report-2024.jpg'
-                alt='laporan performa penjualan 2025'
+                alt='laporan performa penjualan 2024'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
@@ -75,7 +75,7 @@ const Page = () => {
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              <p>Dapatkan materi yang mudah dipahami, langkah demi langkah, dan langsung bisa dipraktikkan untuk meningkatkan penjualanmu di marketplace.</p>
+              <p>Dapatkan materi yang langsung to the point, mudah dipahami, langkah demi langkah, dan langsung bisa dipraktikkan untuk meningkatkan penjualanmu di marketplace.</p>
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>Materi yang akan kamu dapatkan:</div>
