@@ -1,11 +1,8 @@
-import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { DialogHeader, DialogFooter } from '@/components/ui/dialog';
-import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
-import { Label } from '@radix-ui/react-dropdown-menu';
+import { Dialog, DialogTrigger, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import Image from 'next/image'
 import { Metadata } from 'next/types';
-import { Input } from 'postcss';
 
 export const metadata: Metadata = {
   title: 'Jualan Laris Manis di Marketplace Tanpa Iklan | Ebook eCommerce Pemula Anti Boncos',
