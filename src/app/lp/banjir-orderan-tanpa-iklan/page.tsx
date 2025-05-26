@@ -160,7 +160,7 @@ const Page = () => {
                       <DialogTitle>Proof 1</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/LGhSL8ozS5c" title="Proof1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/LGhSL8ozS5c" title="Proof1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
@@ -181,7 +181,7 @@ const Page = () => {
                       <DialogTitle>Proof 2</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/2cchP_7FJ6k" title="proof2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/2cchP_7FJ6k" title="proof2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
@@ -202,7 +202,7 @@ const Page = () => {
                       <DialogTitle>Proof 3</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/YRv6GQCD9gU" title="proof3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/YRv6GQCD9gU" title="proof3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
@@ -223,7 +223,7 @@ const Page = () => {
                       <DialogTitle>Proof 4</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Q9FJs32Na5o" title="proof4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Q9FJs32Na5o" title="proof4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
@@ -244,7 +244,7 @@ const Page = () => {
                       <DialogTitle>Proof 5</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Ce4zpV6tae4" title="proof5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/Ce4zpV6tae4" title="proof5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
@@ -265,7 +265,7 @@ const Page = () => {
                       <DialogTitle>Proof 6</DialogTitle>
                     </DialogHeader>
                     <div className="grid gap-4 py-4">
-                      <iframe width="409" height="727" src="https://www.youtube.com/embed/7jHqANl-dXo" title="proof6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="409" height="727" src="https://www.youtube.com/embed/7jHqANl-dXo" title="proof6" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <DialogFooter>
                     </DialogFooter>
