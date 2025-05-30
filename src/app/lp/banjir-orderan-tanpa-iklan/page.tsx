@@ -27,8 +27,8 @@ const Page = () => {
 
             <div>
               <Image
-                src='/assets/img/banjir-orderan-tanpa-iklan.jpg'
-                alt='Banjir Orderan Tanpa Iklan'
+                src='/assets/img/banjir-orderan-tanpa-iklan-plus.jpg'
+                alt='Banjir Orderan Tanpa Iklan + 100 Prompt AI'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
@@ -92,6 +92,26 @@ const Page = () => {
               <div>✅️ “Main Halus” yang Bikin Orang Beli Lebih dari Satu Produk</div>
               <div>✅️ Trik Gabung Promo Resmi tapi Tetap Untung Besar</div>
               <div>✅️ Langkah praktis yang bisa kamu ikuti dengan detail</div>
+            </div>
+
+            <div className='mt-10 text-md md:text-lg lg:text-xl p-2 border-[1px] border-gray-300 dark:border-gray-600 rounded-md bg-green-50 dark:bg-gray-800'>
+              <div className='text-center font-bold text-red-600'>+ BONUS EBOOK GRATIS</div>
+              <div className='text-center font-bold'>100 Prompt AI untuk Meningkatkan Penjualan Onlie</div>
+              <div className='mt-4 text-center'>
+                <p className='text-sm md:text-md lg:text-lg dark:text-black'>
+                  Dapatkan 100 prompt AI yang siap pakai untuk membantu kamu membuat deskripsi produk, judul yang menarik, dan strategi pemasaran yang efektif.
+                  Dengan prompt ini, kamu bisa menghemat waktu dan tenaga dalam membuat konten yang menarik untuk produkmu.
+                </p>
+                <div>
+                  <Image
+                    src='/assets/img/100-prompt.png'
+                    alt='100 Prompt AI untuk Meningkatkan Penjualan Online'
+                    width={300}
+                    height={300}
+                    className='w-[300px] h-auto m-auto'
+                  />
+                </div>
+              </div>
             </div>
 
 
