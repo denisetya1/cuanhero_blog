@@ -46,8 +46,8 @@ const Page = () => {
 
             <div>
               <Image
-                src='/assets/img/report-2025.jpg'
-                alt='laporan performa penjualan 2025'
+                src='/assets/img/r-2024.jpg'
+                alt='laporan performa penjualan 2024'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
@@ -60,8 +60,8 @@ const Page = () => {
 
             <div>
               <Image
-                src='/assets/img/report-2024.jpg'
-                alt='laporan performa penjualan 2024'
+                src='/assets/img/r-2025.jpg'
+                alt='laporan performa penjualan 2025'
                 width={1000}
                 height={1000}
                 className='w-full h-auto'
