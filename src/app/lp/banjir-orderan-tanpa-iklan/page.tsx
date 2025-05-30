@@ -304,11 +304,11 @@ const Page = () => {
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              <span className='bg-[#fffc00] dark:text-black'><br />Khusus bulan Mei <br />ada cashback 50rb!</span>
+              <span className='bg-[#fffc00] dark:text-black'><br />Segera dapatkan mumpung <br />ada cashback 50k!</span>
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              Pakai kode promo <br /><span className='underline'>&quot;DISKONMEI50&quot;</span>
+              Pakai kode promo <br /><span className='underline'>&quot;DISKON50K&quot;</span>
             </div>
 
             <div className='flex items-center justify-center mb-4'>
