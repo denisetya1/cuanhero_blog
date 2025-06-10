@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const Page = () => {
+
   return (
     <div className='p-3 md:p-6 lg:p-10 flex items-start justify-center'>
       <Card className='max-w-3xl w-full'>
@@ -295,12 +296,13 @@ const Page = () => {
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              Segera dapatkan ebook ini dan jadi yang pertama meraih cuan milyaran di marketplace tanpa iklan!,
+              Segera dapatkan ebook ini dan jadi yang pertama meraih banjir orderan di marketplace tanpa iklan!,
               <br /><span className='bg-[#fffc00] dark:text-black'>ingat 100% tanpa iklan, GRATIS! <br />100% no budget!</span>
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              Harga pre-lauch <br />cuma 147rb!
+              Harga pre-lauch <br /><span className='line-through'>Rp 147rb!</span><br />
+              <span className='bg-[#fffc00] dark:text-black'>Rp 97rb!</span>
             </div>
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
