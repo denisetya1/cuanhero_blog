@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-  title: 'Jualan Laris Manis di Marketplace Tanpa Iklan | Ebook eCommerce Pemula Anti Boncos',
+  title: 'Marketplace Hacks: Jualan Laris Manis di Marketplace Tanpa perlu ngiklan',
   description: 'Belajar jualan di marketplace tanpa iklan! Cocok untuk pemula eCommerce yang ingin cuan lewat strategi organik dan teknik proven anti boncos.',
   keywords: 'jualan di marketplace, jualan tanpa iklan, kelas ecommerce pemula, ebook pemula ecommerce, skill monetization, cara jualan online tanpa ads, jualan di Shopee Tokopedia, strategi organik marketplace, mentor jualan marketplace, jualan gratis tanpa iklan'
 };
@@ -23,7 +23,7 @@ const Page = () => {
               </span></p>
             </div>
             <div className='uppercase mt-5 mb-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center bg-[#fffc00] text-red-600'>
-              <p>Ini dia solusi Banjir Orderan tanpa boncos karena iklan!</p>
+              <p>Ini dia solusi HACKS marketplace supaya bisa Banjir Orderan tanpa boncos karena iklan!</p>
             </div>
 
             <div>
@@ -302,15 +302,7 @@ const Page = () => {
 
             <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
               Harga pre-lauch <br /><span className='line-through'>Rp 147rb!</span><br />
-              <span className='bg-[#fffc00] dark:text-black'>Rp 97rb!</span>
-            </div>
-
-            <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              <span className='bg-[#fffc00] dark:text-black'><br />Segera dapatkan mumpung <br />ada cashback 50k!</span>
-            </div>
-
-            <div className='mt-10 text-xl md:text-2xl lg:text-3xl font-bold text-center'>
-              Pakai kode promo <br /><span className='underline'>&quot;DISKON50K&quot;</span>
+              <span className='bg-[#fffc00] dark:text-black'>Rp 95rb!</span>
             </div>
 
             <div className='flex items-center justify-center mb-4'>
