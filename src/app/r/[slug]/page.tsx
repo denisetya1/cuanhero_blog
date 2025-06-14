@@ -6,6 +6,7 @@ type Redirections = {
 
 const redirections: Redirections = {
   "botn": "/lp/banjir-orderan-tanpa-iklan",
+  "jjjc": "/lp/jalan-jalan-jadi-cuan",
 }
 
 const page = async ({
