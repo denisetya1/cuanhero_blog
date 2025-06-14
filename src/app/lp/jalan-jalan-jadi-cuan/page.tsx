@@ -175,7 +175,7 @@ const Page = () => {
 
             <div className='w-full'>
               <a className="iframe-lightbox-link block text-center p-3 w-full text-xl md:text-2xl lg:text-3xl bg-green-700 rounded-md font-bold text-white hover:bg-green-800 transition-colors"
-                href="https://cuanhero.myr.id/catalog/strategi-jualan-online-banjir-orderan-tanpa-ngiklan"
+                href="https://cuanhero.myr.id/catalog/strategi-mengubah-jalan-jalan-jadi-cuan"
               >
                 Bayar dan Download Materinya</a>
             </div>
