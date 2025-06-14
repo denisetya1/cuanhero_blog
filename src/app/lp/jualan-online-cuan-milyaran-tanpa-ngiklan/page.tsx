@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
 
-export default function Home() {
+const Page = () => {
 
   return redirect('/lp/banjir-orderan-tanpa-iklan');
 }
+
+export default Page;
