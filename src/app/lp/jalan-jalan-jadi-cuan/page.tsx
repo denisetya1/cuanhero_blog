@@ -102,8 +102,10 @@ const Page = () => {
                 <div>✅ Platform yang bisa kamu manfaatkan (YouTube Shorts, TikTok, Blog, dsb)</div>
                 <div>✅ Strategi konten viral dan monetisasi tanpa follower banyak</div>
                 <div>✅ Teknik afiliasi & jual digital sambil traveling</div>
-                <div>✅ Cara jual itinerary & stock photo secara otomatis</div>
-                <div>✅ Studi kasus: Traveler pemula dapat Rp10 juta pertama secara online</div>
+                <div>✅ Cara mengubah itinerary jadi cuan</div>
+                <div>✅ Strategi bikin konten viral tanpa harus punya banyak follower</div>
+                <div>✅ Teknik afiliasi yang bahkan bisa jalan tanpa punya website</div>
+                <div>✅ Cara mengubah foto-foto liburan jadi penghasilan pasif</div>
               </div>
             </div>
 
