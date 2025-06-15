@@ -100,9 +100,8 @@ const Page = () => {
                 <h3 className=' text-xl md:text-2xl lg:text-3xl font-bold text-center mb-5'>Materi yang akan kamu dapatkan:</h3>
                 <div>✅ Cara menghasilkan uang dari konten jalan-jalan</div>
                 <div>✅ Platform yang bisa kamu manfaatkan (YouTube Shorts, TikTok, Blog, dsb)</div>
-                <div>✅ Strategi konten viral dan monetisasi tanpa follower banyak</div>
                 <div>✅ Teknik afiliasi & jual digital sambil traveling</div>
-                <div>✅ Cara mengubah itinerary jadi cuan</div>
+                <div>✅ Cara mengubah itinerary jadi sumber cuan</div>
                 <div>✅ Strategi bikin konten viral tanpa harus punya banyak follower</div>
                 <div>✅ Teknik afiliasi yang bahkan bisa jalan tanpa punya website</div>
                 <div>✅ Cara mengubah foto-foto liburan jadi penghasilan pasif</div>
