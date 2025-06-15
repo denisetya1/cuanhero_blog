@@ -103,7 +103,6 @@ const Page = () => {
                 <div>✅ Teknik afiliasi & jual digital sambil traveling</div>
                 <div>✅ Cara mengubah itinerary jadi sumber cuan</div>
                 <div>✅ Strategi bikin konten viral tanpa harus punya banyak follower</div>
-                <div>✅ Teknik afiliasi yang bahkan bisa jalan tanpa punya website</div>
                 <div>✅ Cara mengubah foto-foto liburan jadi penghasilan pasif</div>
               </div>
             </div>
