@@ -21,7 +21,7 @@ const Page = () => {
 
             <div>
               <Image
-                src='/assets/img/dashboard-tp.png'
+                src='/assets/img/latest-dashboard.png'
                 alt='Banjir Orderan Tanpa Iklan + 100 Prompt AI'
                 width={1000}
                 height={1000}
